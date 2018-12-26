@@ -5,36 +5,42 @@
 今回はREADME.mdのファイルを作成したとする。
 * README.mdの作成  
 
-```php:terminal  
+```ruby:terminal  
 touch README.md  
 ```  
 * リポジトリの作成
 
-```php:terminal  
+```ruby:terminal  
 git init  
 ```  
 * ローカルリポジトリに追加  
 
-```php:terminal  
+```ruby:terminal  
 git add .  
 ```  
 
 * ローカルリポジトリに登録  
 
-```php:terminal  
+```ruby:terminal  
 git commit -m "README.mdの追加"  
 ```  
 
-* GitHubにpushを行う  
+* GitHubにpushを行う  
+
 -- リモートリポジトリの登録    
 
-```php:terminal  
+```ruby:terminal  
 git remote origin master "リポジトリのURL"  
 ```  
 
+-- リモートリポジトリの削除  
+
+```ruby:terminal  
+git remote rm origin  
+```
+
 -- push  
 
-```php:terminal  
+```ruby:terminal  
 git push origin master   
 ```  
- 
